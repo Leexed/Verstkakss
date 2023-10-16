@@ -1,0 +1,929 @@
+.trener{
+    background-image: url('../../../public/assets/imgtren/fon3.png');
+    display: flex;
+    height: 2310px;
+    width: 1920px;
+    flex-direction: column;
+    .trener__raspz{
+        display: flex;
+        padding-top: 80px;
+        padding-left: 366px;
+        color: #FFF;
+        font-family: Unbounded;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        width: 811px;
+        height: 194px;
+    }
+    .trener__brnline{
+        display: flex;
+        flex-direction: column;
+        .trener__brn{
+            display: flex;
+            padding-top: 180px;
+            padding-left: 370px;
+            color: #000;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            mix-blend-mode: luminosity;
+        }
+        .trener__line{
+            display: flex;
+            padding-top: 10px;
+            padding-left: 371px;
+            width: 1180px;
+            height: 7px;
+        }
+    }
+    .trener__martstr{
+        display: flex;
+        flex-direction: row;
+        .trener__mart{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 370px;
+            width: 280px;
+            height: 80px;
+            mix-blend-mode: luminosity;
+        }
+        .trener__str1{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 20px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+        .trener__daymounth{
+            display: flex;
+            .trener__blockdate{
+                display: flex;
+                position: relative;
+                padding-top: 40px;
+                padding-left: 20px;
+                width: 680px;
+                height: 80px;
+                flex-shrink: 0;
+            }
+            .trener__date{
+                display: flex;
+                position: absolute;
+                padding-top: 65px;
+                padding-left: 244px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+        .trener__str2{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 20px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+    }
+    .trener__strtren{
+        display: flex;
+        flex-direction: row;
+        .trener__str3{
+            display: flex;
+            padding-top: 107px;
+            padding-left: 370px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+        .trener__tren{
+            display: flex;
+            padding-top: 108px;
+            padding-left: 40px;
+            color: #000;
+            font-family: Unbounded;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    .trener__info{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 204px;
+        .trener__box1{
+            display: flex;
+            // flex-direction: column;
+            .trener__foto{
+                display: flex;
+                // flex-direction: column;
+                position: relative;
+                padding-top: 61px;
+                padding-left: 370px;
+                width: 380px;
+                height: 440px;
+                flex-shrink: 0;
+            }
+            .trener__name{
+                display: flex;
+                // flex-direction: column;
+                position: absolute;
+                padding-top: 393px;
+                padding-left: 400px;  
+                color: #FFF;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;              
+            }
+        }
+        .trener__box2{
+            display: flex;
+            flex-direction: column;
+            .trener__card12{
+                display: flex;
+                flex-direction: row;
+                .trener__card1{
+                    display: flex;
+                    .trener__spec{
+                        display: flex;
+                        position: relative;
+                        padding-top: 61px;
+                        padding-left: 20px;
+                        width: 380px;
+                        height: 180px;
+                        flex-shrink: 0;
+                    }
+                    .trener__txtspec{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 86px;
+                        padding-left: 50px;
+                        color: #291818;
+                        font-family: Unbounded;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    .trener__punkt1{
+                        display: flex;
+                        position: absolute;
+                        flex-direction: row;
+                        .trener__dot1{
+                            display: flex;
+                            padding-top: 134px;
+                            padding-left: 50px;
+                            width: 10px;
+                            height: 74px;
+                            flex-shrink: 0;
+                        }
+                        .trener__text1{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt1{
+                                display: flex;
+                                padding-top: 126px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                            .trener__txt2{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                            .trener__txt3{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                .trener__card2{
+                    display: flex;
+                    .trener__block2{
+                        display: flex;
+                        position: relative;
+                        padding-top: 61px;
+                        padding-left: 20px;
+                    }
+                    .trener__obr{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 86px;
+                        padding-left: 50px;
+                        color: #291818;
+                        font-family: Unbounded;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    .trener__text2{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 130px;
+                        padding-left: 50px;
+                        color: #806D6D;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 301px;
+                    }
+                }
+            }
+            .trener__card3{
+                display: flex;
+                .trener__block3{
+                    display: flex;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                    position: relative;
+                }
+                .trener__txtdost{
+                    display: flex;
+                    padding-top: 45px;
+                    padding-left: 50px;
+                    position: absolute;
+                    color: #291818;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    font-family: Unbounded;
+                }
+                .trener__punkt3{
+                    display: flex;
+                    position: absolute;
+                    flex-direction: row;
+                    .trener__stolb1{
+                        display: flex;
+                        flex-direction: row;
+                        .trener__dot2{
+                            display: flex;
+                            padding-top: 93px;
+                            padding-left: 50px;
+                            position: absolute;
+                        }
+                        .trener__text3{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt4{
+                                display: flex;
+                                padding-top: 85px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt5{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt6{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt7{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                        }
+                    }
+                    .trener__stolb2{
+                        display: flex;
+                        flex-direction: row;
+                        .trener__dot3{
+                            display: flex;
+                            padding-top: 93px;
+                            padding-left: 59px;
+                            position: absolute;
+                        }
+                        .trener__text4{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt8{
+                                display: flex;
+                                padding-top: 85px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt9{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt10{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt11{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .trener__present{
+        display: flex;
+        flex-direction: column;
+        .trener__podari{
+            display: flex;
+            padding-top: 180px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .trener__skidka{
+            display: flex;
+            padding-top: 13px;
+            padding-left: 367px;
+            color: #FFF;
+            font-size: 64px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .trener__abonement{
+            display: flex;
+            padding-top: 16px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .trener__ofblock{
+            display: flex;
+            padding-top: 72px;
+            padding-left: 370px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+.trener{
+    background-image: url('../../../public/assets/imgtren/fon3.png');
+    display: flex;
+    height: 2310px;
+    width: 1920px;
+    flex-direction: column;
+    .trener__raspz{
+        display: flex;
+        padding-top: 80px;
+        padding-left: 20px;
+        color: #FFF;
+        font-family: Unbounded;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+        width: 811px;
+        height: 194px;
+    }
+    .trener__brnline{
+        display: flex;
+        flex-direction: column;
+        .trener__brn{
+            display: flex;
+            padding-top: 240px;
+            padding-left: 37px;
+            color: #000;
+            font-family: Inter;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            mix-blend-mode: luminosity;
+        }
+        .trener__line{
+            display: flex;
+            padding-top: 10px;
+            padding-left: 37px;
+            width: 1180px;
+            height: 7px;
+        }
+    }
+    .trener__martstr{
+        display: flex;
+        flex-direction: column;
+        .trener__mart{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 37px;
+            width: 280px;
+            height: 80px;
+            mix-blend-mode: luminosity;
+        }
+        .trener__str1{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 20px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+        .trener__daymounth{
+            display: flex;
+            .trener__blockdate{
+                display: flex;
+                position: relative;
+                padding-top: 40px;
+                padding-left: 20px;
+                flex-shrink: 0;
+            }
+            .trener__date{
+                display: flex;
+                position: absolute;
+                width: 800px;
+                padding-top: 65px;
+                padding-left: 120px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+        .trener__str2{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 20px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+    }
+    .trener__strtren{
+        display: flex;
+        flex-direction: row;
+        .trener__str3{
+            display: flex;
+            padding-top: 93px;
+            padding-left: 20px;
+            width: 80px;
+            height: 80px;
+            flex-shrink: 0;
+        }
+        .trener__tren{
+            display: flex;
+            padding-top: 108px;
+            padding-left: 40px;
+            color: #000;
+            font-family: Unbounded;
+            font-size: 46px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    .trener__info{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 204px;
+        .trener__box1{
+            display: flex;
+            // flex-direction: column;
+            .trener__foto{
+                display: flex;
+                // flex-direction: column;
+                position: relative;
+                padding-top: 61px;
+                padding-left: 5px;
+                width: 380px;
+                height: 440px;
+                flex-shrink: 0;
+            }
+            .trener__name{
+                display: flex;
+                // flex-direction: column;
+                position: absolute;
+                padding-top: 393px;
+                padding-left: 40px;  
+                color: #FFF;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;              
+            }
+        }
+        .trener__box2{
+            display: flex;
+            flex-direction: column;
+            .trener__card12{
+                display: flex;
+                flex-direction: column;
+                .trener__card1{
+                    display: flex;
+                    .trener__spec{
+                        display: flex;
+                        position: relative;
+                        padding-top: 61px;
+                        padding-left: 5px;
+                        width: 380px;
+                        height: 180px;
+                        flex-shrink: 0;
+                    }
+                    .trener__txtspec{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 86px;
+                        padding-left: 50px;
+                        color: #291818;
+                        font-family: Unbounded;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    .trener__punkt1{
+                        display: flex;
+                        position: absolute;
+                        flex-direction: row;
+                        .trener__dot1{
+                            display: flex;
+                            padding-top: 134px;
+                            padding-left: 50px;
+                            width: 10px;
+                            height: 74px;
+                            flex-shrink: 0;
+                        }
+                        .trener__text1{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt1{
+                                display: flex;
+                                padding-top: 126px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                            .trener__txt2{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                            .trener__txt3{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 12px;
+                                color: #806D6D;
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+                        }
+                    }
+                }
+                .trener__card2{
+                    display: flex;
+                    .trener__block2{
+                        display: flex;
+                        position: relative;
+                        padding-top: 61px;
+                        padding-left: 5px;
+                    }
+                    .trener__obr{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 86px;
+                        padding-left: 50px;
+                        color: #291818;
+                        font-family: Unbounded;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                    }
+                    .trener__text2{
+                        display: flex;
+                        position: absolute;
+                        padding-top: 130px;
+                        padding-left: 50px;
+                        color: #806D6D;
+                        font-family: Inter;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        width: 301px;
+                    }
+                }
+            }
+            .trener__card3{
+                display: flex;
+                .trener__block3{
+                    display: flex;
+                    padding-top: 20px;
+                    padding-left: 5px;
+                    position: relative;
+                }
+                .trener__txtdost{
+                    display: flex;
+                    padding-top: 45px;
+                    padding-left: 50px;
+                    position: absolute;
+                    color: #291818;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    font-family: Unbounded;
+                }
+                .trener__punkt3{
+                    display: flex;
+                    position: absolute;
+                    flex-direction: row;
+                    .trener__stolb1{
+                        display: flex;
+                        flex-direction: row;
+                        .trener__dot2{
+                            display: flex;
+                            padding-top: 93px;
+                            padding-left: 50px;
+                            position: absolute;
+                        }
+                        .trener__text3{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt4{
+                                display: flex;
+                                padding-top: 85px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt5{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt6{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt7{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 72px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                        }
+                    }
+                    .trener__stolb2{
+                        display: flex;
+                        flex-direction: row;
+                        .trener__dot3{
+                            display: flex;
+                            padding-top: 93px;
+                            padding-left: 59px;
+                            position: absolute;
+                        }
+                        .trener__text4{
+                            display: flex;
+                            flex-direction: column;
+                            .trener__txt8{
+                                display: flex;
+                                padding-top: 85px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt9{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt10{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                            .trener__txt11{
+                                display: flex;
+                                padding-top: 10px;
+                                padding-left: 81px;
+                                color: #806D6D;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                font-family: Inter;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .trener__present{
+        display: flex;
+        flex-direction: column;
+        .trener__podari{
+            display: flex;
+            padding-top: 180px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .trener__skidka{
+            display: flex;
+            padding-top: 13px;
+            padding-left: 367px;
+            color: #FFF;
+            font-size: 64px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .trener__abonement{
+            display: flex;
+            padding-top: 16px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .trener__ofblock{
+            display: flex;
+            padding-top: 72px;
+            padding-left: 370px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+        }
+    }
+
+}
+}

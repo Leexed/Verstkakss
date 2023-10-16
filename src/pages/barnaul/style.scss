@@ -1,0 +1,798 @@
+.barnaul{
+    background-image: url('../../../public/assets/imgbrn/fon.png');
+    display: flex;
+    height: 1862px;
+    width: 1920px;
+    flex-direction: column;
+    .barnaul__brnblock{
+        display: flex;
+        padding-top: 37px;
+        padding-left: 370px;
+        width: 100px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .barnaul__present{
+        display: flex;
+        flex-direction: column;
+        width: 1920px;
+        height: 523px;
+        .barnaul__podari{
+            display: flex;
+            padding-top: 66px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .barnaul__skidka{
+            display: flex;
+            padding-top: 13px;
+            padding-left: 364px;
+            color: #FFF;
+            font-size: 64px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .barnaul__abonement{
+            display: flex;
+            padding-top: 16px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .barnaul__block{
+            display: flex;
+            padding-top: 72px;
+            padding-left: 367px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            padding-bottom: 100px;
+        }
+    }
+    .barnaul__gostvizit{
+        flex-direction: row;
+        display: flex;
+        .barnaul__gvbox{
+            flex-direction: column;
+            display: flex;
+            .barnaul__zapgv{
+                display: flex;
+                padding-top: 143px;
+                padding-left: 370px;
+                color: #000;
+                font-size: 48px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+                width: 504px;
+                height: 174px;
+            }
+            .barnaul__gvtxt{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 371px;
+                width: 530px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-size: 18px;
+                font-family: Inter;
+            }
+        }
+    }
+    .forma{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 30px 50px;
+        
+        color: #3d3d3d;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 64px;
+        padding-top: 80px;
+    }
+    .barnaul__line{
+        display: flex;
+        flex-direction: column;
+        .barnaul__line1{
+            display: flex;
+            padding-top: 80px;
+            padding-left: 370px;
+            height: 1px;
+        }
+        .barnaul__line2{
+            display: flex;
+            padding-top: 36px;
+            padding-left: 370px;
+            width: 1176px;
+            height: 25px;
+            flex-shrink: 0;
+        }
+    }
+    .barnaul__kkstrel{
+        display: flex;
+        flex-direction: row;
+        .barnaul__kk{
+            display: flex;
+            flex-direction: column;
+            .barnaul__kkcard{
+                display: flex;
+                padding-top: 55px;
+                padding-left: 166px;
+                color: #000;
+                font-size: 48px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+                width: 608px;
+                height: 58px;
+            }
+            .barnaul__kktext{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 167px;
+                color: #CEB4B4;
+                font-size: 18px;
+                font-family: Inter;
+                flex-shrink: 0;
+            }
+        }
+        .barnaul__strelki{
+            display: flex;
+            flex-direction: row;
+            .barnaul__strel12{
+                display: flex;
+                padding-top: 59px;
+                padding-left: 455px;
+                width: 120px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+            .barnaul__strel34{
+                display: flex;
+                padding-top: 59px;
+                padding-left: 81px;
+                width: 120px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+        }
+    }
+    .barnaul__boxcards{
+        display: flex;
+        flex-direction: row;
+        .barnaul__card1{
+            display: flex;
+            .barnaul__c1{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 169px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+            }                
+            .barnaul__dnevname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 209px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                }
+            .barnaul__dnevtext{
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                padding-top: 173px;
+                padding-left: 209px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__do5{
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                padding-top: 242px;
+                padding-left: 209px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+                .barnaul__oform1{
+                    display: flex;
+                    position: absolute;
+                    flex-direction: column;    
+                    padding-top: 351px;
+                    padding-left: 209px;
+                    width: 200px;
+                    height: 50px;
+                    flex-shrink: 0;
+                }
+        }
+        .barnaul__card2{
+            display: flex;
+            .barnaul__c2{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 20px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+            }
+            .barnaul__polnname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 60px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__polntext{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 202px;
+                padding-left: 60px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__poln{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 60px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__oform2{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 351px;
+                padding-left: 60px;
+                width: 200px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+        }
+        .barnaul__card3{
+            display: flex;
+            .barnaul__c3{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 20px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+            }
+            .barnaul__childname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 60px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__childtext{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 173px;
+                padding-left: 60px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__poschild{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 242px;
+                padding-left: 60px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__oform3{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 351px;
+                padding-left: 60px;
+                width: 200px;
+                height: 50px;
+                flex-shrink: 0;
+            } 
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+.barnaul{
+    background-image: url('../../../public/assets/imgbrn/fon.png');
+    display: flex;
+    height: 1862px;
+    width: 1920px;
+    flex-direction: column;
+    .barnaul__brnblock{
+        display: flex;
+        padding-top: 37px;
+        padding-left: 37px;
+        width: 100px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .barnaul__present{
+        display: flex;
+        flex-direction: column;
+        width: 1920px;
+        height: 523px;
+        .barnaul__podari{
+            display: flex;
+            padding-top: 66px;
+            padding-left: 36px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .barnaul__skidka{
+            display: flex;
+            padding-top: 13px;
+            padding-left: 36px;
+            color: #FFF;
+            font-size: 38px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .barnaul__abonement{
+            display: flex;
+            padding-top: 16px;
+            padding-left: 36px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .barnaul__block{
+            display: flex;
+            padding-top: 72px;
+            padding-left: 36px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            padding-bottom: 100px;
+        }
+    }
+    .barnaul__gostvizit{
+        flex-direction: column;
+        display: flex;
+        .barnaul__gvbox{
+            flex-direction: column;
+            display: flex;
+            .barnaul__zapgv{
+                display: flex;
+                padding-top: 143px;
+                padding-left: 37px;
+                color: #000;
+                font-size: 38px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+                width: 504px;
+                height: 174px;
+            }
+            .barnaul__gvtxt{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 37px;
+                width: 530px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-size: 12px;
+                font-family: Inter;
+            }
+        }
+        .forma{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 0;
+            max-width: 500px;
+            padding: 30px 50px;
+            
+            color: #3d3d3d;
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 64px;
+            padding-top: 80px;
+        }
+
+    }
+    
+    .barnaul__line{
+        display: flex;
+        flex-direction: column;
+        .barnaul__line1{
+            display: flex;
+            padding-top: 80px;
+            padding-left: 0px;
+            height: 1px;
+        }
+        .barnaul__line2{
+            display: flex;
+            padding-top: 36px;
+            padding-left: 0px;
+            width: 0px;
+            height: 25px;
+            flex-shrink: 0;
+        }
+    }
+    .barnaul__kkstrel{
+        display: flex;
+        flex-direction: column;
+        .barnaul__kk{
+            display: flex;
+            flex-direction: column;
+            .barnaul__kkcard{
+                display: flex;
+                padding-top: 55px;
+                padding-left: 16px;
+                color: #000;
+                font-size: 25px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+                width: 608px;
+                height: 58px;
+            }
+            .barnaul__kktext{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 16px;
+                color: #CEB4B4;
+                font-size: 12px;
+                font-family: Inter;
+                flex-shrink: 0;
+            }
+        }
+        .barnaul__strelki{
+            display: none;
+            flex-direction: row;
+            .barnaul__strel12{
+                display: flex;
+                padding-top: 59px;
+                padding-left: 5px;
+                width: 120px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+            .barnaul__strel34{
+                display: flex;
+                padding-top: 59px;
+                padding-left: 81px;
+                width: 120px;
+                height: 50px;
+                flex-shrink: 0;
+            }
+        }
+    }
+    .barnaul__boxcards{
+        display: flex;
+        flex-direction: column;
+        .barnaul__card1{
+            display: flex;
+            .barnaul__c1{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 20px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+                img{
+                    width: 355px;
+                    height: 300px;
+                    flex-shrink: 0;
+                }
+            }                
+            .barnaul__dnevname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 30px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+                }
+            .barnaul__dnevtext{
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                padding-top: 173px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__do5{
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                padding-top: 242px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+                .barnaul__oform1{
+                    display: flex;
+                    position: absolute;
+                    flex-direction: column;    
+                    padding-top: 301px;
+                    padding-left: 30px;
+                    
+                    flex-shrink: 0;
+                    img{
+                        width: 130px;
+                        height: 30px;
+                        flex-shrink: 0;
+                    }
+                }
+        }
+        .barnaul__card2{
+            display: flex;
+            .barnaul__c2{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 20px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+                img{
+                    width: 355px;
+                    height: 300px;
+                    flex-shrink: 0;
+                }
+            }
+            .barnaul__polnname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 30px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__polntext{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 192px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__poln{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 251px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__oform2{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 311px;
+                padding-left: 30px;
+                width: 200px;
+                height: 50px;
+                flex-shrink: 0;
+                img{
+                    width: 130px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+        .barnaul__card3{
+            display: flex;
+            .barnaul__c3{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 20px;
+                width: 580px;
+                height: 400px;
+                flex-shrink: 0;
+                img{
+                    width: 355px;
+                    height: 300px;
+                    flex-shrink: 0;
+                }
+            }
+            .barnaul__childname{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 95px;
+                padding-left: 30px;
+                color: #2F1F1F;
+                font-family: Unbounded;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__childtext{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 173px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            .barnaul__poschild{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 242px;
+                padding-left: 30px;
+                width: 260px;
+                flex-shrink: 0;
+                color: #806D6D;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+            .barnaul__oform3{
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                padding-top: 311px;
+                padding-left: 30px;
+                width: 200px;
+                height: 50px;
+                flex-shrink: 0;
+                img{
+                    width: 130px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+            } 
+        }
+    }
+}  
+}

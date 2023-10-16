@@ -1,0 +1,126 @@
+
+.header {
+    background-color:#3F3535;
+    display:flex;
+
+&__logo{
+    padding-top: 50px;
+    padding-left: 370px;
+}
+
+&__menu{
+    padding-top: 58px;
+    margin-left: 93.26px;
+    flex: 1;
+    display: flex;
+    >div:last-child {
+        padding-left: 20px;
+    }
+    
+    >div{
+        flex: 1;
+    a{
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: Manrope;
+        text-decoration: none;
+        transition: 0.3ms;
+        opacity: 0.8;
+    }
+    }
+    a:hover{
+        font-weight: 600;
+    }
+}
+
+&__icons{
+    padding-top: 50px;
+    margin-left: 282px;
+    padding-bottom: 7px;
+    display: flex;
+    flex:0.5;
+}
+}
+
+.header-mobile{
+    display: none;
+  }
+
+  @media (max-width: 992px) {
+    .header {
+        display: none;
+      }
+      .header-mobile {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        display: flex;
+        background-color:#000000; ;
+        &__menu {
+          flex: 2;
+          display: flex;
+          justify-content: space-around;
+          > div {
+            a {
+              font-family: 'DM Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 21px;
+              color: #161616;
+              text-decoration: none;
+              transition: 0.3s;
+              opacity: 1;
+            }
+            a:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+        &_icons {
+          display: flex;
+          > div {
+            padding-right: 30px;
+            flex: 1;
+          }
+          > div:last-child {
+            padding-right: 0;
+          }
+          justify-content: right;
+        }
+      
+    
+        &__block {
+          position: absolute;
+          max-height: 0px;
+          margin-top: 80px;
+          transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+        }
+        &__block-open {
+          max-height: 150px;
+          transition: max-height 0.3s cubic-bezier(1, 1, 1, 1);
+          height: 100vh;
+          left: 260px;
+          top: 10px;
+          > div {
+            padding-top: 10px;
+            padding-left: 24px;
+            a {
+              font-family: 'DM Sans';
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 21px;
+              color: #000000;
+              text-decoration: none;
+              transition: 0.3s;
+              opacity: 0.8;
+              z-index: 1;
+              position: relative;
+            }
+            a:hover {
+              opacity: 0.6;
+            }
+          }
+        }
+      }
+  }

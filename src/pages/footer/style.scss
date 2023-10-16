@@ -1,0 +1,405 @@
+.footer{
+    display: flex;
+    background-color: #1D1D1B;
+    flex-direction: column;
+    .footer__info{
+        display: flex;
+        // flex-direction: column;
+        .footer__block1{
+            display: flex;
+            flex-direction: column;
+            .footer__logo{
+                display: flex;
+                padding-top: 8px;
+                padding-left: 370px;
+                width: 187.742px;
+                height: 40.001px;
+                flex-shrink: 0;
+            }
+            .footer__text{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 370px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 14px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+        }
+        .footer__menu{
+            display: flex;
+            a{
+                color: rgba(255, 255, 255, 0.40);
+                text-decoration: none;
+                transition: 0.3ms;
+                opacity: 0.8;
+            }
+            .footer__row1{
+                display: flex;
+                flex-direction: column;
+                .footer__clubs{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 212.26px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 18px;
+                    font-family: Manrope;
+                    font-weight: 600;    
+                }
+                .footer__akcii{
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 212.26px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 18px;
+                    font-family: Manrope;
+                    font-weight: 600;   
+                }
+                .footer__rasp{
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 212.26px;
+                    // color: rgba(255, 255, 255, 0.40);
+                    font-size: 18px;
+                    font-family: Manrope;
+                    font-weight: 600;  
+                }
+            }
+            .footer__row2{
+                flex-direction: column;
+                display: flex;
+                .footer__train{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 145px;
+                    // color: rgba(255, 255, 255, 0.40);
+                    font-size: 18px;
+                    font-family: Manrope;
+                    font-weight: 600; 
+                }
+                .footer__onas{                    
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 145px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 18px;
+                    font-family: Manrope;
+                    font-weight: 600;    
+                }
+            }
+        }
+        .footer__block2{
+            display: flex;
+            flex-direction: column;
+            width: 493px;
+            // align-items: flex-end;
+            .footer__numer{
+                display: flex;
+                padding-top: 0px;
+                padding-left: 217px;
+                color: #F93B30;
+                font-size: 24px;
+                font-family: Unbounded;
+                font-weight: 500;
+                line-height: 24px;
+                text-transform: uppercase;
+            }
+            .footer__zvonok{
+                display: flex;
+                padding-top: 19px;
+                padding-left: 269px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 18px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+            .footer__dogovor{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 204px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 12px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+            .footer__politika{
+                display: flex;
+                padding-top: 13px;
+                padding-left: 215px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 12px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+        }
+    }
+    .footer__line{
+        display: flex;
+        padding-top: 30px;
+        padding-left: 370px;
+        width: 1180px;
+        height: 2px;
+    }
+    .footer__last{
+        display: flex;
+        padding-bottom: 50px;
+        
+        .footer__nef{
+            display: flex;
+            flex-direction: column;
+            padding-top: 15px;
+            padding-left: 370px;
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+        .footer__time{
+            display: flex;
+            flex-direction: column;
+            padding-top: 15px;
+            padding-left: 412px;
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+        .footer__icons{
+            display: flex;
+            flex-direction: row;
+            .footer__insta{
+                display: flex;
+                padding-top: 15px;
+                padding-left: 447px;
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+            }
+            .footer__tg{
+                display: flex;
+                padding-top: 17px;
+                padding-left: 22px;
+                width: 20px;
+                height: 16px;
+                flex-shrink: 0;
+                opacity: 0.20000000298023224;
+            }
+            .footer__whapp{
+                display: flex;
+                padding-top: 15px;
+                padding-left: 21.75px;
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+            }
+        }
+
+    }
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .footer{
+    display: flex;
+    background-color: #1D1D1B;
+    flex-direction: column;
+    // padding-top: 200px;
+    .footer__info{
+        display: flex;
+        // flex-direction: column;
+        flex-direction: column;
+        .footer__block1{
+            display: flex;
+            flex-direction: column;
+            .footer__logo{
+                display: flex;
+                padding-top: 8px;
+                padding-left: 15px;
+                width: 187.742px;
+                height: 40.001px;
+                flex-shrink: 0;
+            }
+            .footer__text{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 15px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 14px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+        }
+        .footer__menu{
+            display: flex;
+            a{
+                color: rgba(255, 255, 255, 0.40);
+                text-decoration: none;
+                transition: 0.3ms;
+                opacity: 0.8;
+            }
+            .footer__row1{
+                display: flex;
+                flex-direction: column;
+                .footer__clubs{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 15px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 12px;
+                    font-family: Manrope;
+                    font-weight: 600;    
+                }
+                .footer__akcii{
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 12px;
+                    font-family: Manrope;
+                    font-weight: 600;   
+                }
+                .footer__rasp{
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    // color: rgba(255, 255, 255, 0.40);
+                    font-size: 12px;
+                    font-family: Manrope;
+                    font-weight: 600;  
+                }
+            }
+            .footer__row2{
+                flex-direction: column;
+                display: flex;
+                .footer__train{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 15px;
+                    // color: rgba(255, 255, 255, 0.40);
+                    font-size: 12px;
+                    font-family: Manrope;
+                    font-weight: 600; 
+                }
+                .footer__onas{                    
+                    display: flex;
+                    padding-top: 10px;
+                    padding-left: 15px;
+                    color: rgba(255, 255, 255, 0.40);
+                    font-size: 12px;
+                    font-family: Manrope;
+                    font-weight: 600;    
+                }
+            }
+        }
+        .footer__block2{
+            display: flex;
+            flex-direction: column;
+            width: 493px;
+            // align-items: flex-end;
+            .footer__numer{
+                display: flex;
+                padding-top: 25px;
+                padding-left: 15px;
+                color: #F93B30;
+                font-size: 18px;
+                font-family: Unbounded;
+                font-weight: 500;
+                line-height: 24px;
+                text-transform: uppercase;
+            }
+            .footer__zvonok{
+                display: flex;
+                padding-top: 19px;
+                padding-left: 15px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 12px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+            .footer__dogovor{
+                display: flex;
+                padding-top: 20px;
+                padding-left: 15px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 12px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+            .footer__politika{
+                display: flex;
+                padding-top: 13px;
+                padding-left: 15px;
+                color: rgba(255, 255, 255, 0.40);
+                font-size: 12px;
+                font-family: Manrope;
+                font-weight: 600;
+            }
+        }
+    }
+    .footer__line{
+        display: flex;
+        padding-top: 30px;
+        padding-left: 15px;
+        width: 1180px;
+        height: 2px;
+    }
+    .footer__last{
+        display: flex;
+        padding-bottom: 50px;
+        
+        .footer__nef{
+            display: flex;
+            flex-direction: column;
+            padding-top: 15px;
+            padding-left: 15px;
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+        .footer__time{
+            display: flex;
+            flex-direction: column;
+            padding-top: 15px;
+            padding-left: 15px;
+            color: rgba(255, 255, 255, 0.40);
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+        .footer__icons{
+            display: flex;
+            flex-direction: row;
+            .footer__insta{
+                display: flex;
+                padding-top: 15px;
+                padding-left: 15px;
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+            }
+            .footer__tg{
+                display: flex;
+                padding-top: 17px;
+                padding-left: 22px;
+                width: 20px;
+                height: 16px;
+                flex-shrink: 0;
+                opacity: 0.20000000298023224;
+            }
+            .footer__whapp{
+                display: flex;
+                padding-top: 15px;
+                padding-left: 21.75px;
+                width: 20px;
+                height: 20px;
+                flex-shrink: 0;
+            }
+        }
+
+    }
+}
+}

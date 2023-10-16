@@ -1,0 +1,1276 @@
+.home {
+    background-image: url('../../../public/assets/images/Group216.png');
+    display: flex;
+    flex-direction: column;
+    .home__present{
+        display: flex;
+        flex-direction: column;
+        &__podari{
+            display: flex;
+            padding-top: 133px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__skidka{
+            display: flex;
+            padding-top: 13px;
+            padding-left: 364px;
+            color: #FFF;
+            font-size: 64px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        &__abonement{
+            display: flex;
+            padding-top: 16px;
+            padding-left: 368px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__block{
+            display: flex;
+            padding-top: 72px;
+            padding-left: 367px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            padding-bottom: 100px;
+        }
+    }
+    .home__whitefon{
+        display: flex;
+        flex-direction: column;
+        .home__whitefon__club{
+            display: flex;
+            padding-top: 133px;
+            padding-left: 367px;
+            color: #000;
+            font-size: 48px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__clubtext{
+            display: flex;
+            padding-top: 20px;
+            padding-left: 368px;
+            width: 530px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #CEB4B4;
+            font-size: 18px;
+            font-family: Inter;
+        }
+    }
+    .home__box1{
+        display: flex;
+        // width: 1920px;
+        // height: 371px;
+        .home__card1{
+            display: flex;
+            position: relative;
+            padding-top: 50px;
+            padding-left: 343px;
+            width: 580px;
+            height: 400px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            justify-content: space-evenly;
+            align-items: flex-start
+        }
+        .home__nefbrn{
+            display: flex;
+            position: absolute;
+            padding-top: 104px;
+            padding-left: 393px;
+            color: #FFF;
+            font-size: 36px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__cardadress{
+            display: flex;
+            position: absolute;
+            padding-top: 325px;
+            padding-left: 393px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .home__strelka{
+            display: flex;
+            position: absolute;
+            padding-top: 325px;
+            padding-left: 823px;
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 50px;
+        }
+    }
+    .home__training{
+        display: flex;
+        padding-top: 105px;
+        padding-left: 367px;
+        color: #000;
+        font-size: 48px;
+        font-family: Unbounded;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .home__trainingtext{
+        display: flex;
+        padding-top: 20px;
+        padding-left: 368px;
+        width: 530px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #CEB4B4;
+        font-size: 18px;
+        font-family: Inter;
+    }
+    .home__twocards{
+        display: flex;
+        padding-bottom: 68px;
+        .home__card2{
+            display: flex;
+            .home__box2{
+                display: flex;
+                position: relative;
+                padding-top: 51px;
+                padding-left: 370px;
+                width: 380px;
+                height: 300px;
+                flex-shrink: 0;
+                border-radius: 20px;
+            }
+            .home__kurs1{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 420px;
+                width: 60px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__onof1{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 490px;
+                width: 131px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__uspptr{
+                display: flex;
+                position: absolute;
+                padding-top: 134px;
+                padding-left: 420px;
+                color: #291818;
+                font-size: 18px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .home__strelcard{
+                display: flex;
+                position: absolute;
+                padding-top: 251px;
+                padding-left: 650px;
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 50px;
+            }
+        }
+        .home__card3{
+            display: flex;
+            .home__box3{
+                display: flex;
+                position: relative;
+                padding-top: 41px;
+                padding-left: 0px;
+                width: 380px;
+                height: 339px;
+                flex-shrink: 0;
+                border-radius: 20px;
+            }
+            .home__kurs2{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 70px;
+                width: 60px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__onof2{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 140px;
+                width: 131px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__uspptr2{
+                display: flex;
+                position: absolute;
+                padding-top: 134px;
+                padding-left: 70px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .home__textcard{
+                display: flex;
+                position: absolute;
+                padding-top: 213px;
+                padding-left: 70px;
+                width: 221px;
+                flex-direction: column;
+                flex-shrink: 0;
+                color: rgba(255, 255, 255, 0.80);
+                font-size: 14px;
+                font-family: Inter;
+            }            
+            .home__strelcard2{
+                display: flex;
+                position: absolute;
+                padding-top: 251px;
+                padding-left: 300px;
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 50px;
+            }
+            .home__chel1{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 70px;
+                width: 30px;
+                height: 30px;
+                flex-shrink: 0;
+            }
+            .home__chel2{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 110px;
+                width: 30px;
+                height: 30px;
+                flex-shrink: 0;
+            }
+            .home__chel3{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 130px;
+                width: 40.5px;
+                height: 72px;
+                flex-shrink: 0;
+            }            
+        }
+    }
+    .home__redwe{
+        display: flex;
+        flex-wrap: wrap;
+        .home__wenahod{
+            display: flex;
+            padding-top: 85px;
+            padding-left: 367px;
+            color: #ffffff;
+            font-size: 48px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__barnaul{
+            display: flex;
+            position: absolute;
+            padding-top: 170px;
+            padding-left: 369px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Inter;
+            font-weight: 500;
+        }
+        .home__line2{
+            display: flex;
+            position: absolute;
+            padding-top: 202px;
+            padding-left: 370px;
+            width: 73px;
+            height: 6px;
+            flex-shrink: 0;
+        }
+        .home__line1{
+            display: flex;
+            position: relative;
+            padding-top: 65px;
+            padding-left: 370px;
+            width: 1180px;
+            height: 2px;
+        }
+        
+    }
+    .home__info{
+        display: flex;
+        flex-wrap: wrap;
+        height: 260px;
+        // width: 1600px;
+        // flex-direction: column;
+        .home__adresname{
+            display: flex;
+            flex-direction: column;
+            .home__adres{
+                display: flex;
+                // position: absolute;
+                padding-top: 40px;
+                padding-left: 370px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+                }    
+            .home__prospekt{
+                display: flex;
+                // position: absolute;
+                padding-top: 1px;
+                padding-left: 368px;
+                width: 381px;
+                // flex-direction: column;
+                flex-shrink: 0;
+                color: #FFF;
+                font-size: 42px;
+                font-family: Unbounded;
+                font-weight: 500;
+                line-height: 65px;
+                text-transform: uppercase;
+            }
+        }
+        .home__otdelres{
+            display: flex;
+            flex-direction: column;
+            .home__kontakt{
+                display: flex;
+                // position: absolute;
+                padding-top: 40px;
+                padding-left: 21px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__otdelpr{
+                display: flex;
+                // position: absolute;
+                padding-top: 10px;
+                padding-left: 21px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Inter;
+                font-weight: 600;
+            }
+            .home__strtime1{
+                display: flex;
+                .home__znak1{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 13px;
+                    padding-left: 21px;
+                    width: 12px;
+                    height: 12px;
+                    flex-shrink: 0;
+                }
+                .home__time1{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-family: Inter;
+                }
+            }
+            .home__resepshen{
+                display: flex;
+                // position: absolute;
+                padding-top: 24px;
+                padding-left: 21px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Inter;
+                font-weight: 600;
+            }
+            .home__strtime2{
+                display: flex;
+                .home__znak2{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 13px;
+                    padding-left: 21px;
+                    width: 12px;
+                    height: 12px;
+                    flex-shrink: 0;
+                }
+                .home__time2{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-family: Inter;
+                }
+            }
+        }
+        .home__numers{
+            display: flex;
+            flex-direction: column;
+            .home__num1{
+                display: flex;
+                padding-top: 75px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num2{
+                display: flex;
+                padding-top: 10px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num3{
+                display: flex;
+                padding-top: 23px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num4{
+                display: flex;
+                padding-top: 10px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+        .home__socreg{
+            display: flex;
+            flex-direction: column;
+            .home__socseti{
+                display: flex;
+                padding-top: 40px;
+                padding-left: 19px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__icons1{
+                display: flex;
+                flex-direction: row;
+                .home__insta1{
+                    display: flex;
+                    padding-top: 13px;
+                    padding-left: 20px;
+                }
+                .home__tgwa{
+                    display: flex;
+                    padding-top: 13px;
+                    padding-left: 18px;
+
+                }
+            }
+            .home__regim{
+                display: flex;
+                padding-top: 24px;
+                padding-left: 20px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__pn-pt{
+                display: flex;
+                flex-direction: row;
+                .home__pn{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 20px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__vt{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 49px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__sr{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__cht{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__pt{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+            }
+            .home__time3{
+                display: flex;
+                padding-top: 14px;
+                padding-left: 20px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+        .home__linevert{
+            display: flex;
+            padding-top: 175px;
+            padding-left: 8px;
+            width: 1px;
+            height: 68px;
+        }
+        .home__last{
+            display: flex;
+            flex-direction: column;
+            // width: 2280px;
+            // padding-left: 0px;
+            // padding-top: ;
+            .home__sb-vs{
+                display: flex;
+                // width: 1000px;
+                flex-direction: row;
+                .home__sb{
+                    display: flex;
+                    padding-top: 175px;
+                    padding-left: 9px;
+                    width: 49px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__vs{
+                    display: flex;
+                    padding-top: 175px;
+                    padding-left: 5px;
+                    width: 47px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    // border-radius: 10px;
+                }
+            }
+            .home__time4{
+                display: flex;
+                padding-top: 14px;
+                padding-left: 7px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+    }
+    .map{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+.home {
+    background-image: url('../../../public/assets/images/Group216.png');
+    display: flex;
+    flex-direction: column;
+    .home__present{
+        display: flex;
+        flex-direction: column;
+        &__podari{
+            display: flex;
+            padding-top: 95px;
+            padding-left: 75px;
+            margin-right: 0px;
+            padding-right: 0px;
+            width: 390px;
+            color: #FFF;
+            font-size: 16px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__skidka{
+            display: flex;
+            padding-top: 75px;
+            padding-left: 75px;
+            color: #FFF;
+            font-size: 44px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        &__abonement{
+            display: flex;
+            padding-top: 75px;
+            padding-left: 75px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__block{
+            display: flex;
+            padding-top: 75px;
+            padding-left: 75px;
+            width: 200px;
+            height: 50px;
+            flex-shrink: 0;
+            padding-bottom: 100px;
+        }
+    }
+    .home__whitefon{
+        display: flex;
+        flex-direction: column;
+        .home__whitefon__club{
+            display: flex;
+            padding-top: 75px;
+            padding-left: 75px;
+            color: #000;
+            font-size: 48px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__clubtext{
+            display: flex;
+            padding-top: 75px;
+            padding-left: 75px;
+            width: 530px;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #CEB4B4;
+            font-size: 10px;
+            font-family: Inter;
+        }
+    }
+    .home__box1{
+        display: flex;
+        // width: 1920px;
+        // height: 371px;
+        .home__card1{
+            display: flex;
+            position: relative;
+            padding-top: 75px;
+            padding-left: 75px;
+            width: 270px;
+            height: 400px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            img{
+                width: 335px;
+                height: 214px;
+            }
+
+        }
+        .home__nefbrn{
+            display: flex;
+            position: absolute;
+            padding-top: 85px;
+            padding-left: 75px;
+            color: #FFF;
+            font-size: 20px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__cardadress{
+            display: flex;
+            position: absolute;
+            padding-top: 215px;
+            padding-left: 75px;
+            color: #FFF;
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .home__strelka{
+            display: flex;
+            position: absolute;
+            padding-top: 205px;
+            padding-left: 295px;
+            width: 50px;
+            height: 50px;
+            flex-shrink: 0;
+            border-radius: 50px;
+        }
+    }
+    .home__training{
+        display: flex;
+        padding-top: 75px;
+        padding-left: 35px;
+        color: #000;
+        font-size: 48px;
+        font-family: Unbounded;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .home__trainingtext{
+        display: flex;
+        padding-top: 75px;
+        padding-left: 75px;
+        width: 530px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #CEB4B4;
+        font-size: 10px;
+        font-family: Inter;
+    }
+    .home__twocards{
+        display: flex;
+        padding-bottom: 68px;
+        flex-direction: column;
+        .home__card2{
+            display: flex;
+            .home__box2{
+                display: flex;
+                position: relative;
+                padding-top: 75px;
+                padding-left: 5px;
+                width: 380px;
+                height: 300px;
+                flex-shrink: 0;
+                border-radius: 20px;
+            }
+            .home__kurs1{
+                display: flex;
+                position: absolute;
+                padding-top: 105px;
+                padding-left: 55px;
+                width: 60px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__onof1{
+                display: flex;
+                position: absolute;
+                padding-top: 105px;
+                padding-left: 125px;
+                width: 131px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__uspptr{
+                display: flex;
+                position: absolute;
+                padding-top: 155px;
+                padding-left: 55px;
+                color: #291818;
+                font-size: 18px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .home__strelcard{
+                display: flex;
+                position: absolute;
+                padding-top: 255px;
+                padding-left: 310px;
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 50px;
+            }
+        }
+        .home__card3{
+            display: flex;
+            .home__box3{
+                display: flex;
+                position: relative;
+                padding-top: 41px;
+                padding-left: 0px;
+                width: 380px;
+                height: 339px;
+                flex-shrink: 0;
+                border-radius: 20px;
+                img{
+                    width: 405px;
+                    height: 330px;
+                    flex-shrink: 0;
+                }
+            }
+            .home__kurs2{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 50px;
+                width: 60px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+
+            }
+            .home__onof2{
+                display: flex;
+                position: absolute;
+                padding-top: 84px;
+                padding-left: 121px;
+                width: 131px;
+                height: 30px;
+                flex-shrink: 0;
+                border-radius: 5px;
+            }
+            .home__uspptr2{
+                display: flex;
+                position: absolute;
+                padding-top: 134px;
+                padding-left: 50px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Unbounded;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .home__textcard{
+                display: flex;
+                position: absolute;
+                padding-top: 213px;
+                padding-left: 50px;
+                width: 221px;
+                flex-direction: column;
+                flex-shrink: 0;
+                color: rgba(255, 255, 255, 0.80);
+                font-size: 14px;
+                font-family: Inter;
+            }            
+            .home__strelcard2{
+                display: flex;
+                position: absolute;
+                padding-top: 251px;
+                padding-left: 310px;
+                width: 50px;
+                height: 50px;
+                flex-shrink: 0;
+                border-radius: 50px;
+            }
+            .home__chel1{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 50px;
+                width: 30px;
+                height: 30px;
+                flex-shrink: 0;
+            }
+            .home__chel2{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 90px;
+                width: 30px;
+                height: 30px;
+                flex-shrink: 0;
+            }
+            .home__chel3{
+                display: flex;
+                position: absolute;
+                padding-top: 271px;
+                padding-left: 110px;
+                width: 40.5px;
+                height: 72px;
+                flex-shrink: 0;
+            }            
+        }
+    }
+    .home__redwe{
+        display: flex;
+        flex-wrap: wrap;
+        .home__wenahod{
+            display: flex;
+            padding-top: 55px;
+            padding-left: 15px;
+            color: #ffffff;
+            font-size: 36px;
+            font-family: Unbounded;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        .home__barnaul{
+            display: flex;
+            position: absolute;
+            padding-top: 170px;
+            padding-left: 15px;
+            color: #FFF;
+            font-size: 18px;
+            font-family: Inter;
+            font-weight: 500;
+        }
+        .home__line2{
+            display: flex;
+            position: absolute;
+            padding-top: 202px;
+            padding-left: 15px;
+            width: 73px;
+            height: 6px;
+            flex-shrink: 0;
+        }
+        .home__line1{
+            display: flex;
+            position: relative;
+            padding-top: 65px;
+            padding-left: 15px;
+            width: 1180px;
+            height: 2px;
+        }
+        
+    }
+    .home__info{
+        display: flex;
+        flex-wrap: wrap;
+        height: 260px;
+        // width: 1600px;
+        // flex-direction: column;
+        .home__adresname{
+            display: flex;
+            flex-direction: column;
+            .home__adres{
+                display: flex;
+                // position: absolute;
+                padding-top: 40px;
+                padding-left: 15px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+                }    
+            .home__prospekt{
+                display: flex;
+                // position: absolute;
+                padding-top: 1px;
+                padding-left: 15px;
+                width: 381px;
+                // flex-direction: column;
+                flex-shrink: 0;
+                color: #FFF;
+                font-size: 42px;
+                font-family: Unbounded;
+                font-weight: 500;
+                line-height: 65px;
+                text-transform: uppercase;
+            }
+        }
+        .home__otdelres{
+            display: none;
+            flex-direction: column;
+            .home__kontakt{
+                display: none;
+                // position: absolute;
+                padding-top: 40px;
+                padding-left: 21px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__otdelpr{
+                display: none;
+                // position: absolute;
+                padding-top: 10px;
+                padding-left: 21px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Inter;
+                font-weight: 600;
+            }
+            .home__strtime1{
+                display: none;
+                .home__znak1{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 13px;
+                    padding-left: 21px;
+                    width: 12px;
+                    height: 12px;
+                    flex-shrink: 0;
+                }
+                .home__time1{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-family: Inter;
+                }
+            }
+            .home__resepshen{
+                display: none;
+                // position: absolute;
+                padding-top: 24px;
+                padding-left: 21px;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Inter;
+                font-weight: 600;
+            }
+            .home__strtime2{
+                display: none;
+                .home__znak2{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 13px;
+                    padding-left: 21px;
+                    width: 12px;
+                    height: 12px;
+                    flex-shrink: 0;
+                }
+                .home__time2{
+                    display: flex;
+                    // position: absolute;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-family: Inter;
+                }
+            }
+        }
+        .home__numers{
+            display: none;
+            flex-direction: column;
+            .home__num1{
+                display: flex;
+                padding-top: 75px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num2{
+                display: flex;
+                padding-top: 10px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num3{
+                display: flex;
+                padding-top: 23px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+            .home__num4{
+                display: flex;
+                padding-top: 10px;
+                padding-left: 116px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+        .home__socreg{
+            display: none;
+            flex-direction: column;
+            .home__socseti{
+                display: flex;
+                padding-top: 40px;
+                padding-left: 19px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__icons1{
+                display: none;
+                flex-direction: row;
+                .home__insta1{
+                    display: flex;
+                    padding-top: 13px;
+                    padding-left: 20px;
+                }
+                .home__tgwa{
+                    display: flex;
+                    padding-top: 13px;
+                    padding-left: 18px;
+
+                }
+            }
+            .home__regim{
+                display: none;
+                padding-top: 24px;
+                padding-left: 20px;
+                color: rgba(255, 255, 255, 0.20);
+                font-size: 18px;
+                font-family: Inter;
+            }
+            .home__pn-pt{
+                display: none;
+                flex-direction: row;
+                .home__pn{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 20px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__vt{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 49px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__sr{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__cht{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__pt{
+                    display: flex;
+                    padding-top: 7px;
+                    padding-left: 5px;
+                    width: 48px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+            }
+            .home__time3{
+                display: flex;
+                padding-top: 14px;
+                padding-left: 20px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+        .home__linevert{
+            display: none;
+            padding-top: 175px;
+            padding-left: 8px;
+            width: 1px;
+            height: 68px;
+        }
+        .home__last{
+            display: none;
+            flex-direction: column;
+            // width: 2280px;
+            // padding-left: 0px;
+            // padding-top: ;
+            .home__sb-vs{
+                display: flex;
+                // width: 1000px;
+                flex-direction: row;
+                .home__sb{
+                    display: flex;
+                    padding-top: 175px;
+                    padding-left: 9px;
+                    width: 49px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                }
+                .home__vs{
+                    display: flex;
+                    padding-top: 175px;
+                    padding-left: 5px;
+                    width: 47px;
+                    height: 30px;
+                    flex-shrink: 0;
+                    // border-radius: 10px;
+                }
+            }
+            .home__time4{
+                display: flex;
+                padding-top: 14px;
+                padding-left: 7px;
+                color: #FFF;
+                font-size: 16px;
+                font-family: Inter;
+            }
+        }
+    }
+    .map{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+}
+
+

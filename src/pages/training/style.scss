@@ -1,0 +1,196 @@
+.training{
+    background-image: url('../../../public/assets/imgtr/fon.png');
+    display: flex;
+    height: 990px;
+    width: 1920px;
+    .training__white{
+        display: flex;
+        flex-direction: row;
+        .training__card{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 80px;
+            .training__konof{
+                display: flex;
+                flex-direction: row;
+                .training__kurs{
+                    display: flex;
+                    padding-top: 470px;
+                    padding-left: 369px;
+                    width: 60px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+                .training__onof{
+                    display: flex;
+                    padding-top: 470px;
+                    padding-left: 10px;
+                    width: 131px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+            }
+            .training__strtext{
+                display: flex;
+                flex-direction: row;
+                .training__str{
+                    display: flex;
+                    padding-top: 30px;
+                    padding-left: 370px;
+                    width: 80px;
+                    height: 80px;
+                    flex-shrink: 0;
+                }
+                .training__trtext{
+                    display: flex;
+                    padding-top: 21px;
+                    padding-left: 30px;
+                    width: 467px;
+                    height: 132px;
+                    color: #000;
+                    font-size: 36px;
+                    font-family: Unbounded;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+            }
+            .training__knopki{
+                display: flex;
+                flex-direction: row;
+                .training__look{
+                    display: flex;
+                    padding-top: 52px;
+                    padding-left: 368px;
+                    width: 280px;
+                    height: 55px;
+                    flex-shrink: 0;
+                }
+                .training__zapis{
+                    display: flex;
+                    padding-top: 52px;
+                    padding-left: 18px;
+                    width: 280px;
+                    height: 55px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+        .training__text{
+            display: flex;
+            padding-top: 0px;
+            padding-left: 450px;
+            width: 580px;
+            // flex-direction: column;
+            flex-shrink: 0;
+            color: #806D6D;
+            font-size: 16px;
+            font-family: Manrope;
+            font-weight: 600;
+        }
+    }
+
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .training{
+    background-image: url('../../../public/assets/imgtr/fon.png');
+    display: flex;
+    height: 990px;
+    width: 1920px;
+    .training__white{
+        display: flex;
+        flex-direction: row;
+        .training__card{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 80px;
+            .training__konof{
+                display: flex;
+                flex-direction: row;
+                .training__kurs{
+                    display: flex;
+                    padding-top: 470px;
+                    padding-left: 75px;
+                    width: 60px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+                .training__onof{
+                    display: flex;
+                    padding-top: 470px;
+                    padding-left: 10px;
+                    width: 131px;
+                    height: 30px;
+                    flex-shrink: 0;
+                }
+            }
+            .training__strtext{
+                display: flex;
+                flex-direction: row;
+                flex-direction: column;
+                .training__str{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 75px;
+                    flex-shrink: 0;
+                    img{
+                    width: 60px;
+                    height: 60px;
+                    }
+                }
+                .training__trtext{
+                    display: flex;
+                    padding-top: 38px;
+                    padding-left: 0px;
+                    width: 467px;
+                    height: 132px;
+                    color: #000;
+                    font-size: 12px;
+                    font-family: Unbounded;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .training__text{
+                    display: flex;
+                    padding-top: 0px;
+                    padding-left: 20px;
+                    width: 580px;
+                    // flex-direction: column;
+                    flex-shrink: 0;
+                    color: #806D6D;
+                    font-size: 11px;
+                    font-family: Manrope;
+                    font-weight: 600;
+                    padding-bottom: 30px;
+                }
+            }
+            .training__knopki{
+                display: flex;
+                flex-direction: column;
+                .training__look{
+                    display: flex;
+                    padding-top: 12px;
+                    padding-left: 75px;
+                    width: 280px;
+                    height: 55px;
+                    flex-shrink: 0;
+                }
+                .training__zapis{
+                    display: flex;
+                    padding-top: 22px;
+                    padding-left: 75px;
+                    width: 280px;
+                    height: 55px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+
+    }
+
+}
+}
